@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "tfcbits:block/wood/supported_ladder/douglas_fir",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "tfcbits:block/wood/supported_ladder/douglas_fir"
+        },
+        "facing=south": {
+            "model": "tfcbits:block/wood/supported_ladder/douglas_fir",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "tfcbits:block/wood/supported_ladder/douglas_fir",
+            "y": 270
+        }
+    }
+}

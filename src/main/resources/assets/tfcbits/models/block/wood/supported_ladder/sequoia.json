@@ -1,0 +1,6 @@
+{
+    "parent": "tfcbits:block/wood/supported_ladder/base",
+    "textures": {
+        "wood": "tfc:block/wood/planks/sequoia"
+    }
+}

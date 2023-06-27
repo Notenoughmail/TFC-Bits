@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/"
+
+[[mods]]
+    modId="tfcbits"
+    version="${file.jarVersion}"
+    displayName="TFC Bits"
+    #displayURL="https://change.me.to.your.mods.homepage.example.invalid/"
+    logoFile="tfcbits.png"
+    authors="Not Enough Mail"
+    description="A mod adding various features to TFC"
+
+[[dependencies.tfcbits]]
+    modId="forge"
+    mandatory=true
+    versionRange="[40,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tfcbits]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tfcbits]]
+    modId="tfc"
+    mandatory=true
+    versionRange="[2.1.14,)"
+    ordering="NONE"
+    side="BOTH"

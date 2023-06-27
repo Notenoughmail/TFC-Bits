@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "tfcbits:block/wood/supported_ladder/oak",
+            "y": 90
+        },
+        "facing=north": {
+            "model": "tfcbits:block/wood/supported_ladder/oak"
+        },
+        "facing=south": {
+            "model": "tfcbits:block/wood/supported_ladder/oak",
+            "y": 180
+        },
+        "facing=west": {
+            "model": "tfcbits:block/wood/supported_ladder/oak",
+            "y": 270
+        }
+    }
+}

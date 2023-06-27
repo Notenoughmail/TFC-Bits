@@ -1,0 +1,29 @@
+{
+    "block.tfcbits.wood.supported_ladder.acacia": "Acacia Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.ash": "Ash Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.aspen": "Aspen Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.birch": "Birch Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.blackwood": "Blackwood Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.chestnut": "Chestnut Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.douglas_fir": "Douglas Fir Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.hickory": "Hickory Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.kapok": "Kapok Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.maple": "Maple Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.oak": "Oak Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.palm": "Palm Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.pine": "Pine Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.rosewood": "Rosewood Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.sequoia": "Sequoia Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.spruce": "Spruce Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.sycamore": "Sycamore Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.white_cedar": "White Cedar Supported Ladder",
+    "block.tfcbits.wood.supported_ladder.willow": "Willow Supported Ladder",
+    
+    "block.tfcbits.rope": "Rope",
+    
+    "block.tfcbits.air_tube": "Air Tube",
+    
+    "itemGroup.tfcbits.itemGroup": "TFC Bits",
+    
+    "tfc.jei.blast_furnace": "Blast Furnace"
+}

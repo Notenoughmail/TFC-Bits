@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+        "tfcbits:wood/supported_ladder/acacia",
+        "tfcbits:wood/supported_ladder/ash",
+        "tfcbits:wood/supported_ladder/aspen",
+        "tfcbits:wood/supported_ladder/birch",
+        "tfcbits:wood/supported_ladder/blackwood",
+        "tfcbits:wood/supported_ladder/chestnut",
+        "tfcbits:wood/supported_ladder/douglas_fir",
+        "tfcbits:wood/supported_ladder/hickory",
+        "tfcbits:wood/supported_ladder/kapok",
+        "tfcbits:wood/supported_ladder/maple",
+        "tfcbits:wood/supported_ladder/oak",
+        "tfcbits:wood/supported_ladder/palm",
+        "tfcbits:wood/supported_ladder/pine",
+        "tfcbits:wood/supported_ladder/rosewood",
+        "tfcbits:wood/supported_ladder/sequoia",
+        "tfcbits:wood/supported_ladder/spruce",
+        "tfcbits:wood/supported_ladder/sycamore",
+        "tfcbits:wood/supported_ladder/white_cedar",
+        "tfcbits:wood/supported_ladder/willow",
+        "tfcbits:rope"
+    ]
+}

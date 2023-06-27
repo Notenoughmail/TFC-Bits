@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_string": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "forge:string"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tfcbits:crafting/rope"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_string",
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "tfcbits:crafting/rope"
+        ]
+    }
+}

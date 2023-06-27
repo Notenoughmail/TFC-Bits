@@ -1,0 +1,7 @@
+{
+    "parent": "tfcbits:block/wood/supported_ladder/base",
+    "ambientocclusion": false,
+    "textures": {
+        "wood": "tfc:block/wood/planks/aspen"
+    }
+}

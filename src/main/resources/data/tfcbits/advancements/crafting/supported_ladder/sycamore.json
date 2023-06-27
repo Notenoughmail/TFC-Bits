@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "has_ladder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:ladder"
+                    }
+                ]
+            }
+        },
+        "has_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "tfcbits:crafting/wood/supported_ladder/sycamore"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "has_ladder",
+            "has_recipe"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "tfcbits:crafting/wood/supported_ladder/sycamore"
+        ]
+    }
+}
