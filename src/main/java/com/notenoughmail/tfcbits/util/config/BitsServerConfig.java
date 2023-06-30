@@ -43,7 +43,7 @@ public class BitsServerConfig {
                 .define("blocksDripBelowWaterTable", true);
         belowWaterTableDripRarity = builder
                 .comment("Determines how often a block below the water table should drip. A higher value means a higher rarity")
-                .defineInRange("belowWaterTableDripRarity", 70, 30, Integer.MAX_VALUE);
+                .defineInRange("belowWaterTableDripRarity", 100, 30, Integer.MAX_VALUE);
         builder.pop(2);
     }
 }
