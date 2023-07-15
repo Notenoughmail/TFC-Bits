@@ -31,6 +31,9 @@ public class BitsClientConfig {
     public static ForgeConfigSpec.IntValue climateOverlayBlueValue;
     public static ForgeConfigSpec.IntValue climateOverlayAlphaValue;
 
+    public static ForgeConfigSpec.BooleanValue enableBlastFurnaceTemperatureTooltip;
+    public static ForgeConfigSpec.IntValue blastFurnaceTemperatureListLimit;
+
     private static void registerConfig(ForgeConfigSpec.Builder builder) {
         builder.push("overlays");
         builder.push("calendar");
@@ -81,5 +84,12 @@ public class BitsClientConfig {
                 .comment("Sets the alpha component of the climate overlay")
                 .defineInRange("climateOverlayAlphaValue", 255, 0, 255);
         builder.pop(3);
+        builder.push("gui");
+        enableBlastFurnaceTemperatureTooltip = builder
+                .comment("Determines if the temperatures of items should be shown while hovering over the blast furnace input")
+                .define("enableBlastFurnaceTemperatureTooltip", true);
+        blastFurnaceTemperatureListLimit = builder
+                .comment("Sets the maximum number of item temperatures to show in the blast furnace screen. Set to 0 to allow unlimited")
+                .defineInRange("blastFurnaceTemperatureListLimit", 0, 0, Integer.MAX_VALUE);
     }
 }

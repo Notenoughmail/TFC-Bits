@@ -12,6 +12,8 @@ import net.dries007.tfc.common.blocks.TFCBlocks;
 import net.dries007.tfc.common.recipes.BlastFurnaceRecipe;
 import net.dries007.tfc.compat.jei.JEIIntegration;
 import net.dries007.tfc.compat.jei.category.BaseRecipeCategory;
+import net.dries007.tfc.util.Helpers;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.Arrays;
@@ -44,5 +46,10 @@ public class BlastFurnaceRecipeCategory extends BaseRecipeCategory<BlastFurnaceR
     public void draw(BlastFurnaceRecipe recipe, IRecipeSlotsView recipeSlotsView, PoseStack stack, double mouseX, double mouseY) {
         arrow.draw(stack, 48, 5);
         arrowAnimated.draw(stack, 48, 5);
+    }
+
+    @Override
+    public Component getTitle() {
+        return Helpers.translatable("tfcbits.jei.blast_furnace");
     }
 }

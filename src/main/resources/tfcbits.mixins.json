@@ -10,9 +10,11 @@
         "TFCChestedHorseMixin",
         "TFCHorseMixin",
         "accessor.BiomeManagerAccessor",
+        "accessor.BlastFurnaceBlockEntityAccessor",
         "accessor.BlastFurnaceRecipeAccessor"
     ],
     "client": [
+        "client.BlastFurnaceScreenMixin"
     ],
     "refmap": "tfcbits.refmap.json"
 }
